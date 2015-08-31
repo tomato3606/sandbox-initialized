@@ -1,0 +1,85 @@
+#contact #header li a.selected{
+	background:url(../images/bg-menu.png) repeat-x 3px 2px;
+	color:#CDC8AA;
+}
+
+#contact h1{
+	margin-bottom:10px;
+}
+
+#contact #content {
+	padding-bottom: 500px;
+	
+}
+#content p:nth-of-type(2n+1){	
+	text-transform:Uppercase;
+	margin-top: 30px;	
+}
+
+blockquote{
+
+	width:350px;
+
+}
+
+form {
+	float: right;
+	padding:10px;
+	width:400px;	
+	border:solid 1px #5A4535;
+}
+
+
+form {
+	float: right;
+	padding:20px;
+	width:400px;	
+	border:solid 1px #5A4535;
+}
+
+
+form div {
+  float: left;
+  width: 400px;
+  padding: 0 0 0.65em 0;
+}
+
+form label {
+  float: left;
+  width: 100px;
+  padding-left:5px; 
+  text-transform:Uppercase;
+}
+
+form input{
+	 width: 250px;
+}
+form textarea{
+	width:280px;
+	 resize: none;
+}
+form textarea, form input {
+  float:left; 
+  margin-right":10px;  
+  border:solid 1px #5A4535;
+   padding: 3px;
+}
+
+
+form input[type="submit"] {
+  float: none;
+  margin-left:110px;
+  width:60px;
+  height:26px; 
+  background: url(../images/btn-send.png) no-repeat -70px 0;
+  border:none;
+  cursor:pointer;
+}
+
+form input[type="submit"]:hover{
+	background-position:0px 0px;
+}
+
+form div.submit {
+  text-align: left;
+}
