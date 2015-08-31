@@ -1,0 +1,42 @@
+#about #header li a.selected{
+	background:url(../images/bg-menu.png) repeat-x 3px 2px;
+	color:#CDC8AA;
+}
+
+#about h1{
+	margin-bottom:10px;
+}
+
+#about h2{
+	margin-bottom:30px;
+}
+
+#about h2.last{
+	margin-top:30px;
+}
+
+article{	
+	border-bottom: solid 1px #BBBBBB;
+	padding-bottom: 10px;
+}
+
+#main {
+	position: relative;
+	margin-top: 30px;
+}
+
+#main article{
+	width:500px;
+	border-bottom:none;
+	overflow: hidden;
+}
+
+blockquote{
+	position: absolute;
+	width:225px;	
+	top:0px;
+	right:0px;
+	border-left:solid 1px #BBBBBB;
+	padding-left: 25px;
+}
+

@@ -1,0 +1,59 @@
+#food #header li a.selected{
+	background:url(../images/bg-menu.png) repeat-x 3px 2px;
+	color:#CDC8AA;
+}
+
+#food #content{
+	padding-bottom: 100px;
+}
+#food h1{
+	margin-bottom: 50px;
+}
+
+#food h2{
+ 	color:#2C9688; 	
+ 	text-transform:Uppercase;
+ 	margin:10px 0 30px 0;
+}
+
+#food h3{
+	  font: 22px/22px "Times New Roman",Times,serif;	
+}
+
+#food h3,#food blockquote p {
+	  color:#316E66;
+}
+#content ul{
+	list-style-type: none;
+}
+
+#content ul li {
+	position: relative;		
+	padding-bottom: 20px;
+	border-bottom: solid 1px #BBBBBB;
+	cursor:pointer;	
+}
+
+#content ul li:last-child{
+	border-bottom: none;
+}
+#content ul li:hover blockquote{
+	display: block;
+}
+#content ul li:hover img{
+	opacity: 0.4;
+}
+#content ul li blockquote{
+	position: absolute;	
+	top:162px;	
+	width:780px;	
+	background-color:rgba(100%,100%,99%,0.95); 	
+	padding:8px 0 20px 20px;
+	display:none;
+}
+
+#content ul li blockquote:hover{
+
+}
+
+
